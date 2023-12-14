@@ -1,6 +1,7 @@
 import React from 'react';
 import { AiOutlineArrowRight } from "react-icons/ai";
 import Presence from '../../assets/presence.png';
+import { Link } from 'react-router-dom';
 
 const Purpose = () => {
   return (
@@ -22,9 +23,11 @@ const Purpose = () => {
             Asia and Latin America.
           </p>
         </div>
-        <button className="bg-blue-600 px-4 py-2 rounded-lg text-white flex items-center justify-center gap-2">
-          Read More <AiOutlineArrowRight />
-        </button>
+        <Link to='/about'>
+          <button className="bg-blue-600 px-4 py-2 rounded-lg text-white flex items-center justify-center gap-2">
+            Read More <AiOutlineArrowRight />
+          </button>
+        </Link>
       </div>
 
       <div className=' rounded-2xl w-full sm:w-[35%] h-full'>

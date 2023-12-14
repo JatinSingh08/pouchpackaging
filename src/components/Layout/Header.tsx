@@ -9,7 +9,7 @@ const Header = () => {
        <ul className="text-white flex items-center justify-center gap-3 sm:gap-8">
         <li><Link to='/' className="text-xs sm:text-2xl font-semibold">Home</Link></li>
         <li><Link to='/about' className="text-xs sm:text-2xl font-semibold">About Us</Link></li>
-        <li><Link to='/' className="text-xs sm:text-2xl font-semibold">Accessories</Link></li>
+        <li><Link to='/' className="text-xs sm:text-2xl font-semibold">Machines</Link></li>
       </ul>
       <div className='flex items-center justify-center gap-4'>
          <button className="text-[#244C89] bg-white px-2 sm:px-6 sm:py-2  font-semibold text-base sm:text-lg">Inquiry</button>
