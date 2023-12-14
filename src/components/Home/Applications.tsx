@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import app1 from '../../assets/app1.webp';
 import app2 from '../../assets/app2.webp';
 import app3 from '../../assets/app3.png';
-// import Company4 from '@/assets/app4.';
 import app5 from '../../assets/app5.png';
 import app6 from '../../assets/app6.jpg';
 import app7 from '../../assets/app7.jpeg';
@@ -30,8 +29,7 @@ const Applications = () => {
     app13,
   ];
 
-  const [currentImage, setCurrentImage] = useState(0);
-  const speed = 5000;
+  const [, setCurrentImage] = useState(0);
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImage((prevImage) => (prevImage + 1) % brands.length);

@@ -1,10 +1,8 @@
-import React from 'react';
 import Carousel1 from '../../assets/carousel1.png';
 import Carousel2 from '../../assets/carousel2.png';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import { CiCircleChevLeft, CiCircleChevRight } from 'react-icons/ci';
 
 const Body = () => {
   const images = [Carousel1, Carousel2];

@@ -1,4 +1,3 @@
-import React from 'react'
 import QR from "../../assets/qr.png";
 import PDF from "../../assets/pdf.jpg";
 import { AiOutlineArrowUp } from "react-icons/ai";
