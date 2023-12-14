@@ -1,4 +1,3 @@
-import React from 'react';
 import { AiOutlineArrowRight } from "react-icons/ai";
 import Presence from '../../assets/presence.png';
 import { Link } from 'react-router-dom';

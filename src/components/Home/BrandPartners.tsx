@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import Company1 from '../../assets/company-1.png';
 import Company2 from '../../assets/company-2.jpg';
 import Company3 from '../../assets/company-3.jpg';
@@ -30,8 +30,7 @@ const BrandPartners = () => {
     Company13,
   ];
 
-  const [currentImage, setCurrentImage] = useState(0);
-  const speed = 5000;
+  const [, setCurrentImage] = useState(0);
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImage((prevImage) => (prevImage + 1) % brands.length);
