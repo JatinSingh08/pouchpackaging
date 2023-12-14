@@ -1,4 +1,3 @@
-import React from 'react'
 import MissionValues from "../../assets/missionvalues.png";
 
 const CompanyStats = () => {

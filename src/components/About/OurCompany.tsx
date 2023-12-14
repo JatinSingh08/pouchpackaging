@@ -1,5 +1,3 @@
-import React from 'react'
-
 const OurCompany = () => {
   return (
     <div className="bg-[#224c89] py-6 sm:py-10 px-4 sm:px-8">

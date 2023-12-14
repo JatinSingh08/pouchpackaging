@@ -1,4 +1,3 @@
-import React from "react";
 import leadership from "../../assets/leadership.png";
 
 const Leadership = () => {

@@ -1,4 +1,3 @@
-import React from 'react'
 import Logo from '../../assets/logo.jpg';
 import CE from '../../assets/certification-ce.png';
 import DAC from '../../assets/dac.png';

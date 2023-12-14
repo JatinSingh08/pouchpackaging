@@ -1,19 +1,21 @@
-import React from 'react'
-import Banner from './Banner'
-import Header from './Header'
-import Footer from './Footer'
+import React, { ReactNode } from 'react';
+import Banner from './Banner';
+import Header from './Header';
+import Footer from './Footer';
 
-const Layout = ({ children }) => {
+interface LayoutProps {
+  children: ReactNode;
+}
+
+const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <main>
       <Banner />
       <Header />
-      <div>
-        {children}
-      </div>
+      <div>{children}</div>
       <Footer />
     </main>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;
