@@ -10,17 +10,12 @@ import Footer from '../components/Layout/Footer'
 
 const Home = () => {
   return (
-    <main>
-      <Banner />
-      <Header />
-      <div className='min-h-screen'>
-        <Body />
-        <Purpose />
-        <BrandPartners />
-        <Brochure />
-        <Applications />
-      </div>
-      <Footer />
+    <main className='min-h-screen'>
+      <Body />
+      <Purpose />
+      <BrandPartners />
+      <Brochure />
+      <Applications />
     </main>
   )
 }

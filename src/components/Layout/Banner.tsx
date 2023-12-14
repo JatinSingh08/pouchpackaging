@@ -5,15 +5,18 @@ import DAC from '../../assets/dac.png';
 import Facebook from '../../assets/facebook.png';
 import Instagram from '../../assets/instagram.png';
 import Linkedin from '../../assets/linkedin.png';
+import { Link } from 'react-router-dom';
 
 const Banner = () => {
   return (
     <div className="px-2 sm:px-10 md:px-24 py-2 flex items-center justify-between">
-      <img
-        src={Logo}
-        alt="logo"
-        className="w-[--168px] h-[--168px] sm:w-[120px] sm:h-[120px] md:w-[--160px] md:h-[--160px] object-contain"
-      />
+      <Link to='/'>
+        <img
+          src={Logo}
+          alt="logo"
+          className="w-[--168px] h-[--168px] sm:w-[120px] sm:h-[120px] md:w-[--160px] md:h-[--160px] object-contain"
+        />
+      </Link>
       <div className="flex flex-col items-center justify-center">
         <p className="text-[12px] sm:text-[24px] md:text-[28px] lg:text-[48px] underline-offset-8 underline text-[#224C89] font-bold mx-auto">FLEXO PACK MACHINES LTD</p>
         <div className="text-[10px] sm:text-[16px] md:text-[--24px]  flex flex-col items-center justify-center text-[#224C89] font-semibold mt-2">
